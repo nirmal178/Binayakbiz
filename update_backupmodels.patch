@@ -1,0 +1,20 @@
+--- app/src/main/java/com/example/data/drive/BackupModels.kt
++++ app/src/main/java/com/example/data/drive/BackupModels.kt
+@@ -6,9 +6,14 @@
+ @JsonClass(generateAdapter = true)
+ data class CompanyBackupDto(
+     val id: String,
+-    val pan: String,
+-    val companyName: String,
++    val panVatNumber: String,
++    val businessName: String,
++    val businessType: String = "Retail",
++    val ownerName: String = "",
++    val phoneNumber: String = "",
+     val address: String?,
+-    val password: String
++    val province: String = "",
++    val district: String = "",
++    val currency: String = "NPR",
++    val fiscalYear: String = "2080/81"
+ )

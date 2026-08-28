@@ -1,0 +1,2 @@
+#!/bin/bash
+sed -i '/val createdAt: Long = System.currentTimeMillis()/i\    val barcode: String = "",\n    val category: String = "",\n    val brand: String = "",\n    val wholesalePrice: Double = 0.0,\n    val taxRate: Double = 0.0,\n    val imageUri: String? = null,\n    val expiryDate: Long? = null,\n    val batchNumber: String = "",\n    val status: String = "ACTIVE",' app/src/main/java/com/example/data/local/entity/Entities.kt

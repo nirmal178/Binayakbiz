@@ -1,0 +1,67 @@
+--- app/src/main/java/com/example/data/local/entity/Entities.kt
++++ app/src/main/java/com/example/data/local/entity/Entities.kt
+@@ -10,12 +10,19 @@
+ @Entity(
+     tableName = "companies",
+-    indices = [Index(value = ["pan"], unique = true)]
++    indices = [Index(value = ["panVatNumber"], unique = true)]
+ )
+ data class CompanyEntity(
+     @PrimaryKey val id: String = UUID.randomUUID().toString(),
+-    val pan: String, // 9 digits
+-    val companyName: String,
+-    val email: String? = null,
++    val businessName: String,
++    val businessType: String = "Retail",
++    val ownerName: String = "",
++    val phoneNumber: String = "",
+     val address: String?,
++    val province: String = "",
++    val district: String = "",
++    val panVatNumber: String,
++    val businessLogo: String? = null,
++    val currency: String = "NPR",
++    val fiscalYear: String = "2080/81",
+     val password: String = "admin",
+     val createdAt: Long = System.currentTimeMillis()
+ )
+ 
++@Entity(
++    tableName = "branches",
++    foreignKeys = [
++        ForeignKey(
++            entity = CompanyEntity::class,
++            parentColumns = ["id"],
++            childColumns = ["companyId"],
++            onDelete = ForeignKey.CASCADE
++        )
++    ],
++    indices = [Index(value = ["companyId"])]
++)
++data class BranchEntity(
++    @PrimaryKey val id: String = UUID.randomUUID().toString(),
++    val companyId: String,
++    val branchName: String,
++    val address: String,
++    val phoneNumber: String = "",
++    val isHeadOffice: Boolean = false,
++    val createdAt: Long = System.currentTimeMillis()
++)
++
+ @Entity(
+     tableName = "users",
+@@ -34,10 +60,11 @@
+     val companyId: String,
++    val branchId: String? = null, // Can be null if Owner (has access to all)
+     val username: String, // Or email/phone
+     val passwordHash: String,
+-    val role: String = "USER", // "ADMIN" or "USER"
++    val role: String = "Cashier", // Business Owner, Manager, Cashier, Inventory Staff, Accountant
+     val canCreateSalesInvoice: Boolean = false,
+     val canCreatePurchaseInvoice: Boolean = false,
+     val canCreateVoucher: Boolean = false,
+     val canManageItems: Boolean = false,
+     val canManageParties: Boolean = false,
++    val canViewReports: Boolean = false,
+     val createdAt: Long = System.currentTimeMillis()
+ )

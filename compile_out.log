@@ -1,0 +1,230 @@
+Reusing configuration cache.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:processDebugGoogleServices UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:kspDebugKotlin UP-TO-DATE
+> Task :app:processDebugNavigationResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:generateDebugRFile UP-TO-DATE
+
+> Task :app:compileDebugKotlin FAILED
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:213:17 'if' must have both main and 'else' branches when used as an expression.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:223:2 Syntax error: Expecting an element.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:227:15 Unresolved reference 'catch'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:227:22 Unresolved reference 'e'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:227:23 Syntax error: Expecting ')'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:227:23 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:227:36 Argument type mismatch: actual type is 'Function0<ERROR CLASS: Unknown return lambda parameter type>', but 'Unit' was expected.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:228:36 Unresolved reference 'e'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:230:10 Syntax error: Expecting 'catch' or 'finally'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:292:14 Syntax error: Expecting 'catch' or 'finally'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:293:15 Unresolved reference 'catch'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:293:22 Unresolved reference 'e'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:293:23 Syntax error: Expecting ')'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:293:23 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:294:36 Unresolved reference 'e'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:300:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:301:13 Unresolved reference 'userPrefs'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:306:9 Unresolved reference '_authError'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:320:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:322:27 Unresolved reference 'loggedInCompanyId'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:322:54 Unresolved reference 'userPrefs'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:322:82 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:328:17 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:330:37 Argument type mismatch: actual type is 'Any', but 'String' was expected.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:340:17 Syntax error: Expecting an element.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:342:14 Syntax error: Expecting 'catch' or 'finally'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:343:15 Unresolved reference 'catch'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:343:22 Unresolved reference 'e'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:343:23 Syntax error: Expecting ')'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:343:23 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:344:25 Unresolved reference 'e'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:347:9 Syntax error: Expecting a top level declaration.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:348:5 Syntax error: Expecting a top level declaration.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:351:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:353:17 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:362:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:364:17 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:392:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:394:27 Unresolved reference 'loggedInCompanyId'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:394:54 Unresolved reference 'userPrefs'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:394:82 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:400:17 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:402:37 Argument type mismatch: actual type is 'Any', but 'String' was expected.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:421:17 Syntax error: Expecting an element.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:423:14 Syntax error: Expecting 'catch' or 'finally'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:424:15 Unresolved reference 'catch'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:424:22 Unresolved reference 'e'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:424:23 Syntax error: Expecting ')'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:424:23 Syntax error: Unexpected tokens (use ';' to separate expressions on the same line).
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:425:25 Unresolved reference 'e'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:428:9 Syntax error: Expecting a top level declaration.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:429:5 Syntax error: Expecting a top level declaration.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:432:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:434:17 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:443:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:445:17 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:455:54 Unresolved reference 'sales'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:455:71 Unresolved reference 'purchases'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:458:27 Unresolved reference 'it'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:461:51 Unresolved reference 'size'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:466:53 Unresolved reference 'receipts'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:466:73 Unresolved reference 'payments'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:469:27 Unresolved reference 'it'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:472:51 Unresolved reference 'size'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:478:59 Unresolved reference 'customers'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:478:80 Unresolved reference 'suppliers'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:480:43 Unresolved reference 'it'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:480:93 Unresolved reference 'it'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:482:21 Argument type mismatch: actual type is 'Any', but 'PartyEntity' was expected.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:484:23 Unresolved reference 'loggedInCompanyId'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:485:13 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:495:21 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:496:14 Syntax error: Expecting 'catch' or 'finally'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:498:2 Unresolved reference 'catch'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:498:9 Unresolved reference 'e'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:498:10 Syntax error: Unexpected type specification.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:500:69 Unresolved reference 'customers'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:500:90 Unresolved reference 'suppliers'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:500:107 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:500:107 Not enough information to infer type argument for 'T'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:500:107 Suspension functions can only be called within coroutine body.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:501:51 Argument type mismatch: actual type is 'Any', but 'PartyEntity' was expected.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:521:19 Unresolved reference 'loggedInCompanyId'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:522:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:564:17 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:573:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:574:13 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:591:19 Unresolved reference 'loggedInCompanyId'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:592:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:612:17 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:621:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:623:17 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:633:22 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:634:27 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:732:47 Unresolved reference 'userPrefs'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:732:72 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:732:88 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:733:25 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:734:15 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:737:24 Unresolved reference 'loggedInCompanyId'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:737:42 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:737:58 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:738:25 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:738:63 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:738:70 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:739:7 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:739:7 Not enough information to infer type argument for 'T'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:739:15 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:739:69 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:739:69 Not enough information to infer type argument for 'T'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:742:22 Unresolved reference 'currentCompany'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:743:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:745:17 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:758:18 Syntax error: Expecting ')'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:766:9 Unresolved reference 'viewModelScope'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:776:13 Unresolved reference 'repository'.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:779:1 Syntax error: Expecting a top level declaration.
+e: file:///app/applet/app/src/main/java/com/example/ui/AppViewModel.kt:821:1 Syntax error: Expecting a top level declaration.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:77:39 Unresolved reference 'getNextInvoiceNumber'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:85:23 Unresolved reference 'getOrCreateCashParty'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:85:57 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:86:45 Unresolved reference 'id'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:139:55 Unresolved reference 'getNextInvoiceNumber'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:208:47 Unresolved reference 'getOrCreateCashParty'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:208:81 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:209:69 Unresolved reference 'id'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:219:47 Unresolved reference 'getOrCreateCashParty'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:219:81 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:220:69 Unresolved reference 'id'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:474:35 Unresolved reference 'getOrCreateCashParty'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:474:69 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:475:57 Unresolved reference 'id'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:476:72 Unresolved reference 'id'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddTransactionScreen.kt:624:15 Unresolved reference 'addTransaction'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddVoucherScreen.kt:66:39 Unresolved reference 'getNextVoucherNumber'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddVoucherScreen.kt:145:55 Unresolved reference 'getNextVoucherNumber'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddVoucherScreen.kt:297:31 Unresolved reference 'addVoucher'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AddVoucherScreen.kt:306:45 Unresolved reference 'it'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/AuthScreen.kt:170:51 Unresolved reference 'signupCompany'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/DashboardScreen.kt:38:21 Property delegate must have a 'getValue(Nothing?, KProperty0<ERROR CLASS: Cannot infer argument for type parameter T>)' method. None of the following functions is applicable:
+fun <T> State<T>.getValue(thisObj: Any?, property: KProperty<*>): T
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/DashboardScreen.kt:38:24 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/DashboardScreen.kt:38:34 Unresolved reference 'currentUser'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/DashboardScreen.kt:38:46 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/DashboardScreen.kt:366:48 Unresolved reference 'canCreateSalesInvoice'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/DashboardScreen.kt:373:48 Unresolved reference 'canCreatePurchaseInvoice'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/DashboardScreen.kt:380:48 Unresolved reference 'canCreateVoucher'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/DashboardScreen.kt:387:48 Unresolved reference 'canCreateVoucher'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ItemsScreen.kt:123:43 Unresolved reference 'deleteItem'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ItemsScreen.kt:329:35 Unresolved reference 'updateItem'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ItemsScreen.kt:350:35 Unresolved reference 'addItem'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartiesScreen.kt:286:35 Unresolved reference 'updateParty'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartiesScreen.kt:298:41 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartiesScreen.kt:301:35 Unresolved reference 'addParty'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartiesScreen.kt:312:41 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartiesScreen.kt:340:39 Unresolved reference 'deleteParty'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartiesScreen.kt:346:45 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:76:35 Unresolved reference 'getPartyLedger'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:132:44 Unresolved reference 'totalDebit'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:133:45 Unresolved reference 'totalCredit'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:134:41 Unresolved reference 'netBalance'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:261:44 Unresolved reference 'entries'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:261:55 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:262:35 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:262:35 Not enough information to infer type argument for 'T'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:263:17 Not enough information to infer type argument for 'K'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:265:21 Unresolved reference 'it'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:266:21 Unresolved reference 'it'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:267:21 Unresolved reference 'it'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:313:55 Unresolved reference 'id'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:313:63 Unresolved reference 'refNumber'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:313:78 Unresolved reference 'date'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/PartyLedgerScreen.kt:314:47 Argument type mismatch: actual type is 'Int', but 'PartyLedgerEntry' was expected.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ProfileScreen.kt:19:14 Property delegate must have a 'getValue(Nothing?, KProperty0<ERROR CLASS: Cannot infer argument for type parameter T>)' method. None of the following functions is applicable:
+fun <T> State<T>.getValue(thisObj: Any?, property: KProperty<*>): T
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ProfileScreen.kt:19:17 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ProfileScreen.kt:19:27 Unresolved reference 'currentUser'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ProfileScreen.kt:19:39 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ProfileScreen.kt:41:19 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ProfileScreen.kt:41:19 Not enough information to infer type argument for 'T'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ProfileScreen.kt:41:25 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ProfileScreen.kt:42:24 Unresolved reference 'username'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ProfileScreen.kt:43:24 Unresolved reference 'role'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ProfileScreen.kt:63:31 Unresolved reference 'logout'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ReportsScreen.kt:95:112 Unresolved reference 'partyName'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ReportsScreen.kt:104:112 Unresolved reference 'partyName'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ReportsScreen.kt:154:89 Unresolved reference 'partyName'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ReportsScreen.kt:160:89 Unresolved reference 'partyName'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ReportsScreen.kt:196:113 Unresolved reference 'partyName'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/ReportsScreen.kt:202:113 Unresolved reference 'partyName'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/TransactionsScreen.kt:81:35 Unresolved reference 'deleteTransaction'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/UserManagementScreen.kt:27:15 Property delegate must have a 'getValue(Nothing?, KProperty0<ERROR CLASS: Cannot infer argument for type parameter T>)' method. None of the following functions is applicable:
+fun <T> State<T>.getValue(thisObj: Any?, property: KProperty<*>): T
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/UserManagementScreen.kt:27:18 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/UserManagementScreen.kt:27:28 Unresolved reference 'companyUsers'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/UserManagementScreen.kt:27:41 Cannot infer type for this parameter. Specify it explicitly.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/UserManagementScreen.kt:63:33 Argument type mismatch: actual type is 'Int', but 'UserEntity' was expected.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/UserManagementScreen.kt:64:31 Unresolved reference 'updateUserPermission'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/UserManagementScreen.kt:104:31 Unresolved reference 'addUser'.
+e: file:///app/applet/app/src/main/java/com/example/ui/screens/VouchersScreen.kt:180:35 Unresolved reference 'deleteVoucher'.
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+> A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   > Compilation error. See log for more details
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 24s
+9 actionable tasks: 1 executed, 8 up-to-date
+Configuration cache entry reused.

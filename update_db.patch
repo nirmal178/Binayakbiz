@@ -1,0 +1,18 @@
+--- app/src/main/java/com/example/data/local/AppDatabase.kt
++++ app/src/main/java/com/example/data/local/AppDatabase.kt
+@@ -10,13 +10,14 @@
+ import com.example.data.local.entity.CompanyEntity
+ import com.example.data.local.entity.ItemEntity
+ import com.example.data.local.entity.PartyEntity
+ import com.example.data.local.entity.TransactionEntity
+ import com.example.data.local.entity.TransactionItemEntity
+ import com.example.data.local.entity.UserEntity
+ import com.example.data.local.entity.VoucherEntity
++import com.example.data.local.entity.BranchEntity
+ 
+ @Database(
+     entities = [
+         CompanyEntity::class,
++        BranchEntity::class,
+         UserEntity::class,
+         PartyEntity::class,

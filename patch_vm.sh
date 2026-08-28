@@ -1,0 +1,4 @@
+#!/bin/bash
+sed -i 's/initialStock: Double = 0.0,/initialStock: Double = 0.0,\n        barcode: String = "",\n        category: String = "",\n        brand: String = "",\n        wholesalePrice: Double = 0.0,\n        taxRate: Double = 0.0,\n        imageUri: String? = null,\n        expiryDate: Long? = null,\n        batchNumber: String = "",\n        status: String = "ACTIVE",/g' app/src/main/java/com/example/ui/AppViewModel.kt
+
+sed -i 's/stockQuantity = initialStock/stockQuantity = initialStock,\n                        barcode = barcode,\n                        category = category,\n                        brand = brand,\n                        wholesalePrice = wholesalePrice,\n                        taxRate = taxRate,\n                        imageUri = imageUri,\n                        expiryDate = expiryDate,\n                        batchNumber = batchNumber,\n                        status = status/g' app/src/main/java/com/example/ui/AppViewModel.kt

@@ -1,0 +1,19 @@
+--- app/src/main/java/com/example/data/local/dao/AppDao.kt
++++ app/src/main/java/com/example/data/local/dao/AppDao.kt
+@@ -23,6 +23,17 @@
+     @Query("SELECT * FROM companies WHERE id = :id LIMIT 1")
+     fun getCompanyFlow(id: String): Flow<CompanyEntity?>
+ 
++    // Branches
++    @Insert(onConflict = OnConflictStrategy.REPLACE)
++    suspend fun insertBranch(branch: BranchEntity)
++    @Query("SELECT * FROM branches WHERE companyId = :companyId")
++    fun getBranches(companyId: String): Flow<List<BranchEntity>>
++    @Query("SELECT * FROM branches WHERE id = :id LIMIT 1")
++    suspend fun getBranchById(id: String): BranchEntity?
++    @Query("SELECT * FROM branches WHERE companyId = :companyId AND isHeadOffice = 1 LIMIT 1")
++    suspend fun getHeadOffice(companyId: String): BranchEntity?
++
+     // User
+     @Insert
+     suspend fun insertUser(user: UserEntity)

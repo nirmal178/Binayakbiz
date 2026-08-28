@@ -1,0 +1,59 @@
+--- app/src/main/java/com/example/ui/screens/UserManagementScreen.kt
++++ app/src/main/java/com/example/ui/screens/UserManagementScreen.kt
+@@ -49,15 +49,16 @@
+     if (showDialog) {
+         var username by remember { mutableStateOf("") }
+         var password by remember { mutableStateOf("") }
+-        var role by remember { mutableStateOf("USER") }
++        var role by remember { mutableStateOf("Cashier") }
++        val roles = listOf("Manager", "Cashier", "Inventory Staff", "Accountant")
+         
+         AlertDialog(
+             onDismissRequest = { showDialog = false },
+             title = { Text("Add New User") },
+             text = {
+-                Column(verticalArrangement = Arrangement.spacedBy(8.dp)) {
++                Column(modifier = Modifier.verticalScroll(rememberScrollState()), verticalArrangement = Arrangement.spacedBy(8.dp)) {
+                     OutlinedTextField(
+                         value = username,
+-                        onValueChange = { username = it },
+-                        label = { Text("Username") },
++                        onValueChange = { username = it },
++                        label = { Text("Username / Email") },
+                         modifier = Modifier.fillMaxWidth()
+                     )
+                     OutlinedTextField(
+@@ -67,6 +68,23 @@
+                         modifier = Modifier.fillMaxWidth()
+                     )
++                    Text("Role", fontWeight = FontWeight.Bold, modifier = Modifier.padding(top = 8.dp))
++                    roles.forEach { r ->
++                        Row(verticalAlignment = Alignment.CenterVertically) {
++                            RadioButton(selected = role == r, onClick = { role = r })
++                            Text(r, modifier = Modifier.padding(start = 4.dp))
++                        }
++                    }
+                 }
+             },
+             confirmButton = {
+@@ -95,7 +113,7 @@
+             Spacer(modifier = Modifier.height(8.dp))
+-            if (user.role != "ADMIN") {
++            if (user.role != "Business Owner") {
+                 PermissionSwitch(
+                     label = "Can Create Sales Invoice",
+                     checked = user.canCreateSalesInvoice,
+@@ -118,6 +136,11 @@
+                     checked = user.canManageParties,
+                     onCheckedChange = { onTogglePermission("parties", it) }
+                 )
++                PermissionSwitch(
++                    label = "Can View Reports",
++                    checked = user.canViewReports,
++                    onCheckedChange = { onTogglePermission("reports", it) }
++                )
+             } else {
+-                Text("Admin users have all permissions.", style = MaterialTheme.typography.bodySmall)
++                Text("Business Owners have all permissions.", style = MaterialTheme.typography.bodySmall)
+             }
+         }

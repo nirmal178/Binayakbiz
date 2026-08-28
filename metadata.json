@@ -1,0 +1,6 @@
+{
+  "name": "Inventory Manager",
+  "description": "Cross-platform mobile application for inventory and sales management tailored for businesses in Nepal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
